@@ -1,0 +1,20 @@
+{
+  "name": "coding-canal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.20.6",
+    "coding-canal": "file:",
+    "recharts": "^2.15.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "playwright": "^1.49.1",
+    "typescript": "^5"
+  }
+}
